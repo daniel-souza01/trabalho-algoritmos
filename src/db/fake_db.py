@@ -1,7 +1,7 @@
 import json
 
 class FakeDatabase:
-    file_name =  "db.json"
+    file_name =  "src/db/db.json"
     
     def __init__(self):
         self.agendamentos = self.select()
