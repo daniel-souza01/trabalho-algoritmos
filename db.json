@@ -1,0 +1,65 @@
+[
+    {
+        "id": "f4a0b4b8-029c-4b68-ad01-268f556e82f6",
+        "documento": "121321132",
+        "telefone": "99999",
+        "turno": "MANHA",
+        "especialista": "m\u00e9dico",
+        "data_retorno": "",
+        "data_criacao": "2024-09-19 12:40:02.436311"
+    },
+    {
+        "id": "da7b112f-98c4-49f6-83dd-e8d07589ed4c",
+        "documento": "121321132",
+        "telefone": "99999",
+        "turno": "MANHA",
+        "especialista": "m\u00e9dico",
+        "data_retorno": "",
+        "data_criacao": "2024-09-19 12:40:04.804901"
+    },
+    {
+        "id": "5b48c44a-1ad1-41c8-b7e4-dbd0578cd41d",
+        "documento": "121321132",
+        "telefone": "99999",
+        "turno": "MANHA",
+        "especialista": "m\u00e9dico",
+        "data_retorno": "",
+        "data_criacao": "2024-09-19 12:43:29.125057"
+    },
+    {
+        "id": "23ab3cd2-66e8-4ce2-8af3-be3a04cf0536",
+        "documento": "121321132",
+        "telefone": "99999",
+        "turno": "MANHA",
+        "especialista": "m\u00e9dico",
+        "data_retorno": "",
+        "data_criacao": "2024-09-19 12:43:31.079173"
+    },
+    {
+        "id": "3d452e78-32dd-4721-a40d-ebcdd52c116a",
+        "documento": "121321132",
+        "telefone": "99999",
+        "turno": "MANHA",
+        "especialista": "m\u00e9dico",
+        "data_retorno": "",
+        "data_criacao": "2024-09-19 12:48:22.025197"
+    },
+    {
+        "id": "d8b38fd6-e9e8-4e5b-96e6-781ce439f6a5",
+        "documento": "121321132",
+        "telefone": "99999",
+        "turno": "TARDE",
+        "especialista": "m\u00e9dico",
+        "data_retorno": "",
+        "data_criacao": "2024-09-19 12:48:51.442144"
+    },
+    {
+        "id": "641f5423-9745-4020-a69c-87c428f72037",
+        "documento": "121321132",
+        "telefone": "99999",
+        "turno": "TARDE",
+        "especialista": "m\u00e9dico",
+        "data_retorno": "",
+        "data_criacao": "2024-09-19 12:54:21.713155"
+    }
+]
