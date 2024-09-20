@@ -8,7 +8,7 @@
 ## Criar agendamento
 
 - `python3 src/main.py criar <documento> <telefone> <turno> <especialista>`
-  - Ex.: `python3 src/main.py criar 121321132 99999 Manhã Médico`
+  - Ex.: `python3 src/main.py criar 121321132 99999 MANHÃ MÉDICO`
 
 ## Listar todos os agendamentos
 

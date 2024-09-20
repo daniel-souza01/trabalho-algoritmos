@@ -34,7 +34,7 @@ def criar(documento: str, telefone: int, turno: str, especialista: str):
         print(f":boom: [bold red]{e}[/bold red] :boom:")
         
 @app.command()
-def todos():    
+def listar():    
     try:
         todos = db.select()
         print("[bold blue]A lista de todos os agendamentos cadastrados:[/bold blue] :file_folder:")
