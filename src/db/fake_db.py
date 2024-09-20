@@ -20,3 +20,6 @@ class FakeDatabase:
     def insert(self, agendamento):
         self.agendamentos.append(agendamento)
         self.persist()
+        
+    def select_by_turn_and_specialty(self, turno, especialista):
+        return [a for a in self.agendamentos if a["turno"] == turno and a["especialista"] == especialista]
