@@ -12,6 +12,18 @@ table = Table("Id", "Documento", "Telephone", "Turno", "Especialista", "Data de 
 
 @app.command()
 def criar(documento: str, telefone: int, turno: str, especialista: str):       
+    """
+    Cria um novo agendamento.
+
+    Este comando permite criar um novo agendamento verificando as condições do turno e especialista. Caso as condições
+    sejam atendidas, o agendamento será registrado no banco de dados e exibido em uma tabela.
+
+    @param {str} documento - Documento de identificação do paciente.
+    @param {int} telefone - Número de telefone do paciente.
+    @param {str} turno - Turno preferido para o agendamento ("MANHÃ", "TARDE", "NOITE").
+    @param {str} especialista - Especialista desejado para o agendamento ("MÉDICO", "DENTISTA").
+    @throws {ValueError} - Lançado se o turno ou especialista for inválido ou se os limites de agendamentos forem atingidos.
+    """
     try:
         if turno not in ['MANHÃ', 'TARDE', 'NOITE']:
             raise ValueError("Turno inválido. Use 'MANHÃ', 'TARDE' ou 'NOITE'.")
@@ -34,7 +46,14 @@ def criar(documento: str, telefone: int, turno: str, especialista: str):
         print(f":boom: [bold red]{e}[/bold red] :boom:")
         
 @app.command()
-def listar():    
+def listar(): 
+    """
+    Lista todos os agendamentos cadastrados.
+
+    Este comando exibe todos os agendamentos existentes no banco de dados em uma tabela formatada.
+
+    @throws {Exception} - Lançado caso ocorra um erro ao tentar carregar os agendamentos.
+    """   
     try:
         todos = db.select()
         print("[bold blue]A lista de todos os agendamentos cadastrados:[/bold blue] :file_folder:")
